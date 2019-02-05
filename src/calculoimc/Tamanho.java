@@ -34,4 +34,7 @@ public class Tamanho {
         }
         return "ta abaixo";
     }
+    public String NomeDoCara(String nome){
+            return nome;
+    }
 }
