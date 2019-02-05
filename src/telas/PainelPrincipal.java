@@ -162,7 +162,7 @@ public class PainelPrincipal extends javax.swing.JPanel {
         Tamanho im = new Tamanho();//puxa a classe Tamanho
         double tamanhoP = im.calcular(idade, altura); //puxa a media dos dois
         //puxar o tamnho e dizer qual a media que ele ta
-        String mediaTam = im.CalcSit("");
+        String mediaTam = im.CalcSit();
         
         
         DecimalFormat df = new DecimalFormat("0.##");//pra poder deixar formatado/bonitinho

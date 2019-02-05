@@ -2,8 +2,7 @@ package calculoimc;
 
 public class Tamanho {
     double media;
-    int op;
-    String tamanho = "";
+    double op;
     public double calcular(double idade, double altura){
         if(idade >= 10 && idade <= 13 ){
             op = 0;
@@ -16,9 +15,8 @@ public class Tamanho {
             return media = 18;
         }
     }
-    public String CalcSit(String tamanhoDele, int tamanho){
-        switch(op){
-            case 0:
+    public String CalcSit(double tamanho){
+        if(op = 0){
                if(tamanho <= 7){
                    return "Seu palmito eh peqeuno";
                }else if(tamanho > 7 && tamanho < 16){
